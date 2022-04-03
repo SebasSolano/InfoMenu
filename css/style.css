@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+.type-info{
+
+    font-family: 'Send Flowers', cursive !important;
+    background-color: red !important;
+
+}
+
+body{
+ 
+        /* Ubicación de la imagen */
+        
+        background-image: url(/img/fondo.jpg) !important;
+        /* Para dejar la imagen de fondo centrada, vertical y
+        
+        horizontalmente */
+        
+        background-position: center center !important;
+        
+        /* Para que la imagen de fondo no se repita */
+        
+        background-repeat: no-repeat !important;
+        
+        /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+        
+        background-attachment: fixed !important;
+        
+        /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+        
+        background-size: cover !important;
+        
+        /* Se muestra un color de fondo mientras se está cargando la imagen
+        
+        de fondo o si hay problemas para cargarla */
+
+        background-color: rgba(48, 47, 47, 0.5) !important;
+        
+        
+        
+}
+
+.logo-menu{
+
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.menu{
+    padding-left:  5% !important;;
+}
+
+.menu:hover {
+
+    background-color: rgb(194, 188, 188) !important;
+    border-radius: 2%;
+    
+
+}
+
